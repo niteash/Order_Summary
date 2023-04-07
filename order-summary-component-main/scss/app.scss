@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;700;900&display=swap');
+
+$font-family-sans-serif: 'Red Hat Display', sans-serif;
+
+$body-bg: hsl(225, 100%, 94%);
+
+$border-radius : 20px;
+$border-radius-sm: 10px;
+
+$btn-border-radius-lg:10px;
+
+$primary :  hsl(245, 75%, 52%);
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+    background: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 50vh;
+}
+
+.one{
+    border-radius: 10px;
+}
+
+.anual{
+    font-size: 15px;
+}
